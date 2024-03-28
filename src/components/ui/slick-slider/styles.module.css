@@ -1,0 +1,16 @@
+.dots {
+    @apply !flex items-center justify-center space-x-2 absolute w-full left-0 -bottom-8;
+  }
+  
+  .dots li {
+    @apply inline-flex;
+  }
+  
+  .dot {
+    @apply w-2.5 h-2.5 inline-block rounded-full transition-all bg-[#E4E3E3] cursor-pointer hover:bg-[#E81C2E];
+  }
+  
+  .dots li[class='slick-active'] .dot {
+    @apply w-7 bg-[#E81C2E];
+  }
+  
