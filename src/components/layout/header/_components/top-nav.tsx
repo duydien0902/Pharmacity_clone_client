@@ -12,9 +12,9 @@ import { DATA } from './data-header'
 export const TopNav = () => {
   return (
     <nav className='flex gap-x-8 justify-between'>
-        <div className='cursor-pointer'>
+        <Link href={'/'}>
             <Image src={'/icons/logo-tagline.svg'} alt='logo' width={167} height={40} />
-        </div>
+        </Link>
         <div className='flex-1'>
             <Search />
             <div>

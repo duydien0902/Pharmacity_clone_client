@@ -1,7 +1,7 @@
 .slider :global(.slick-list) {
-  @apply -mx-[9px];
+  @apply -ml-1.5 -mr-[4.49px];
 }
 
 .slider :global(.slick-slide > div) {
-  @apply px-3;
+  @apply px-1.5;
 }

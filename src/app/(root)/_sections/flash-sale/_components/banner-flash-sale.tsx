@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Countdown } from '@/app/(root)/_components/countdown'
 
 export const BannerFlashSale = () => {
-    const targetDate = '2024-04-01T00:00:00';
+    const targetDate = '2024-04-10T00:00:00';
   return (
     <div className='relative -mt-6'>
         <div className='absolute w-2 h-2 bg-[#00254a] rounded-tr-xl top-0 right-0' />

@@ -26,7 +26,7 @@ const calculateTimeLeft = (targetDate: string) => {
 
 export const Countdown = ({ targetDate }: CountdownProps) => {
 
-    const [timeLeft, setTimeLeft] = useState<any>(null);
+    const [timeLeft, setTimeLeft] = useState<any>({});
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -36,10 +36,9 @@ export const Countdown = ({ targetDate }: CountdownProps) => {
         return () => clearTimeout(timer);
     });
 
-
     return (
         <div className='flex gap-x-2 items-center text-[#f22222] text-xl font-bold'>
-            {timeLeft &&
+            {Object.keys(timeLeft)?.length !== 0 &&
                 <>
                     <div className='h-10 w-10 flex items-center justify-center rounded-[8px] mr-3 bg-white'><span>{formatNum(timeLeft.days)}</span></div>
                     <div className='h-10 w-10 flex items-center justify-center rounded-[8px] bg-white'><span>{formatNum(timeLeft.hours)}</span></div>

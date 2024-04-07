@@ -18,7 +18,7 @@ export const ProductCard = ({ item }: {item: ProductCardProps}) => {
                     </div>
                 </div>
             }
-            <div className='bg-white overflow-hidden max-w-[185px] w-full rounded-[8px] cursor-pointer border border-[#e2e8f0]'>
+            <div className='bg-white overflow-hidden w-full rounded-[8px] cursor-pointer border border-[#e2e8f0]'>
                 <div className='relative'>
                     <div className='relative aspect-square w-full max-h-[185px]'>
                         <Image src={thumbnail} alt='' fill className='bg-cover bg-center'  />
@@ -33,7 +33,7 @@ export const ProductCard = ({ item }: {item: ProductCardProps}) => {
                     <h4 className='text-[#2b2b2b] font-semibold line-clamp-2'>{title}</h4>
                     <div className='h-5'>
                         {basis_price && 
-                            <p className='text-[#9e9e9e] font-bold line-through '>{basis_price} <span className=' underline'>đ</span></p>
+                            <p className='text-[#9e9e9e] font-bold line-through '>{basis_price} <span className='underline'>đ</span></p>
                         }
                     </div>
                     <p className='text-[#0072bc] text-base font-bold'>{price} <span className='underline'>đ</span>/Chai</p>

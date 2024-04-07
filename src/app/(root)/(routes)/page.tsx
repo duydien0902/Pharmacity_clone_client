@@ -16,7 +16,7 @@ import { IntroParagraph } from "../_sections/intro-paragraph";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#f7f7f7]">
       <Promotion />
       <Services />
       <FlashSale />

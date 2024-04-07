@@ -36,31 +36,31 @@ export const DATA = {
     linkItem_navBar: [
         {
             label: 'Thuốc',
-            url: '/'
+            url: '/duoc-pham'
         },
         {
             label: 'Thực phẩm chức năng',
-            url: '/'
+            url: '/thuc-pham-chuc-nang'
         },
         {
             label: 'Chăm sóc cá nhân',
-            url: '/'
+            url: '/cham-soc-ca-nhan'
         },
         {
             label: 'Mẹ và bé',
-            url: '/'
+            url: '/me-va-be'
         },
         {
             label: 'Chăm sóc sắc đẹp',
-            url: '/'
+            url: '/cham-soc-sac-dep'
         },
         {
             label: 'Nhãn hàng Pharmacity',
-            url: '/',
+            url: '/shop/pharmacity',
         },
         {
             label: 'Thiết bị y tế',
-            url: '/'
+            url: '/thiet-bi-y-te-2'
         },
     ]
 }
