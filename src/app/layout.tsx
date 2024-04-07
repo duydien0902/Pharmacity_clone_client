@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Mulish } from "next/font/google";
+import NextTopLoader from 'nextjs-toploader';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -26,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={mulish.variable}>
+        <NextTopLoader showSpinner={false}/>
         <AppProvider>
           {children}
         </AppProvider>

@@ -4,3 +4,6 @@ export const formatNum = (num: string | number) => {
     }
     return num
 }
+
+export const formatPrice = (price: string | number | null) => 
+    `${price}`.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
