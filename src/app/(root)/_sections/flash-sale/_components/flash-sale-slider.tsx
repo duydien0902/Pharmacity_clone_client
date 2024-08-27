@@ -87,6 +87,34 @@ const DATA = [
     sold: '47.3',
     trending: true
   },
+  {
+    id: 7,
+    // discount: '30',
+    thumbnail: '/images/products/product5.png',
+    gift: true,
+    // voucher: true,
+    flash_ship: true,
+    title: 'Viên uống Pharmacity Hoạt Huyết tăng cường tuần hoàn máu não (Hộp 3 vỉ x 10 viên)',
+    basis_price: '215.000',
+    price: '172.000',
+    like: '76.2',
+    sold: '47.3',
+    trending: true
+  },
+  {
+    id: 8,
+    discount: '20',
+    thumbnail: '/images/products/product1.png',
+    gift: true,
+    voucher: true,
+    flash_ship: true,
+    title: 'Nước súc miệng Listerine Coolmint (750ml)',
+    basis_price: '163.000',
+    price: '114.100',
+    like: '73.2',
+    sold: '56.2',
+    trending: true
+  },
 
 ]
 
